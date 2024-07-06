@@ -15,6 +15,10 @@ export default function Header() {
 							className={({ isActive }) => isActive ? 'text-white uppercase font-bold' : 'text-black uppercase font-bold hover:underline'}
 						>Inicio</NavLink>
 						<NavLink
+							to={'services'}
+							className={({ isActive }) => isActive ? 'text-white uppercase font-bold' : 'text-black uppercase font-bold hover:underline'}
+						>Servicios</NavLink>
+						<NavLink
 							to={'prices'}
 							className={({ isActive }) => isActive ? 'text-white uppercase font-bold' : 'text-black uppercase font-bold hover:underline'}
 						>Precios</NavLink>
