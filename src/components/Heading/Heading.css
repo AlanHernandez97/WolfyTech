@@ -1,0 +1,28 @@
+.heading {
+	width: 100%;
+	height: auto;
+	flex-wrap: wrap;
+}
+
+.text {
+	width: 50%;
+}
+
+.image {
+	width: 600px;
+	height: 300px;
+	margin: auto;
+}
+
+@media (max-width: 1295px) {
+	.text {
+		width: 100%;
+	}
+
+	.image {
+		width: auto;
+		height: auto;
+		display: flex;
+		margin: auto;
+	}
+}
