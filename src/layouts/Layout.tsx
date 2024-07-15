@@ -10,6 +10,7 @@ function Layout() {
 			<main>
 				<Outlet />
 			</main>
+
 		</>
 	)
 }
